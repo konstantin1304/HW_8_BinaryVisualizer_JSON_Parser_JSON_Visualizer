@@ -1,0 +1,56 @@
+.wrapperCanvas {
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    
+    background-color: #eee;
+    border: 2px solid rgb(248, 20, 20);
+    border-radius: 10px;
+
+}
+
+.dataPanel {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.dataPanel__inputValue {
+    width: 80px;
+    height: 15px;
+    margin: 0 100%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    outline: none;
+}
+
+.dataPanel__inputBtn {
+    width: 80px;
+    margin: 7px;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.dataPanel__inputBtn:hover {
+    border: 2px solid red;
+}
+
+.dataPanel__inputBtn:active {
+    border: 2px solid red;
+    background-color: gray;
+}
+
+.dataPanel__inputValue--outputVal {
+    margin: 5px;
+    min-width: 1000px;
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+    font-size: 12px;
+}

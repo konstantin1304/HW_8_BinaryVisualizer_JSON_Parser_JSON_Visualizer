@@ -1,0 +1,100 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.form__title {
+  text-align: center;
+  margin: 20px;
+  font-size: 22px;
+}
+
+.form__textArea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  outline: none;
+  font-family: monospace;
+  resize: none;
+}
+
+.wrapInput__button {
+  width: 80px;
+    margin: 7px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.wrapInput__button:hover {
+  border: 2px solid red;
+}
+
+.wrapInput__button:active {
+  background-color: gray;
+}
+
+.line {
+  margin: 5px;
+  width: 100%;
+  border-bottom: 2px dotted red;
+}
+
+.output {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+.tableRow__cell {
+  padding: 3px 5px;
+  border: 1px solid #000000;
+  vertical-align: top;
+}
+
+.tableTitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+
+div.object, div.array {
+  display: table-cell;
+  padding: 15px;
+  min-width: 100px;
+}
+
+div.object {
+  background-color: #eeeeee;
+}
+
+div.object > table {
+  background-color: #ffffff;
+}
+
+div.array {
+  background-color: #eeeeff;
+}
+
+div.array > table {
+  background-color: #ffffee;
+}
+
+
+
